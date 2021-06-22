@@ -15,7 +15,6 @@ export const AddCategory = ({ setCategories }) => {
       setCategories((oldItems) => [inputValue, ...oldItems]);
       setInputValue("");
     }
-    console.log("Submit done");
   };
   return (
     <form onSubmit={handleSubmit}>

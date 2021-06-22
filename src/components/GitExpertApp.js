@@ -7,9 +7,7 @@ export const GitExpertApp = () => {
     "himym"
   ]);
 
-/*   const handleAdd = () => {
-    setCategories([...categories,'sirenita'])
-  }; */
+
   return (
     <>
       <h2>GitExpertApp</h2>
